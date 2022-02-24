@@ -1,0 +1,7 @@
+create table t1(a int);
+create table t2(b int);
+create table t3(c int);
+select * from t1, t2, inner join t1 on t1.a=t2.b, t3;
+drop table t1;
+drop table t2;
+drop table t3;

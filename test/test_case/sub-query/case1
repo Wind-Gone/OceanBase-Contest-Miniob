@@ -1,0 +1,15 @@
+create table t_query_1(name char, age int);
+create table t_query_2(name char, age int);
+insert into t_query_1 values('a', 20);
+insert into t_query_1 values('a', 50);
+insert into t_query_1 values('b', 60);
+insert into t_query_1 values('c', 2);
+insert into t_query_2 values('a', 50);
+insert into t_query_2 values('a', 10);
+insert into t_query_2 values('b', 30);
+select * from t_query_1 where name in(select name from t_query_2);
+select * from t_query_1 where t_query_1.age >(select max(t_query_2.age) from t_query_2);
+select * from t_query_1 where t_query_1.age > (select avg(t_query_2.age) from t_query_2) and t_query_1.age > 20.0;
+select * from t_query_1 where name not in(select name from t_query_2);
+drop table t_query_1;
+drop table t_query_2;

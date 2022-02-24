@@ -1,0 +1,8 @@
+create table SSQ_1  (ID int, COL1 int, FEAT1 float);
+create table SSQ_2 (ID int, COL2 int, FEAT2 float);
+insert into SSQ_1 values(1, 4, 11.2);
+insert into SSQ_1 values(2, 2, 12.0);
+insert into SSQ_1 values(3, 3, 13.5);
+insert into SSQ_2 values(2, 2, 12.0);
+insert into SSQ_2 values(1, 2, 12.0);
+insert into SSQ_2 values(1, 2, 11.0);

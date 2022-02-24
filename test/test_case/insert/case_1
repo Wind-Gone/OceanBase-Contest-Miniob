@@ -1,0 +1,4 @@
+create table t (a int, b int);
+insert into t values(1,2),(2,3);
+select * from t;
+drop table t;

@@ -1,0 +1,6 @@
+create table CSQ_1(ID int, COL1 int, FEAT1 float);
+create table CSQ_2(ID int, COL2 int, FEAT2 float);
+create table CSQ_3(ID int, COL3 int, FEAT3 float);
+insert into CSQ_1 values (0,2,1.0),(1,0,13.0), (1,4,11.2), (2,2,12.0), (3,3,13.5);
+insert into CSQ_2 values (0,2,14.0),(1,2,2.0);
+insert into CSQ_3 values (0,-2, 0.5),(1,2,2.0);

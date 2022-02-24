@@ -1,0 +1,5 @@
+create table t (a int,b char);
+create index t1 on t (a,b);
+create index t2 on t (b,a);
+create index t3 on t (a);
+drop table t;

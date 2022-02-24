@@ -1,0 +1,8 @@
+create table t1 (a int);
+create table t2 (b int);
+select * from t1,t2;
+insert into t1 values(1);
+insert into t2 values(2);
+select * from t1,t2;
+drop table t1;
+drop table t2;

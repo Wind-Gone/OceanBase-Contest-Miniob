@@ -1,0 +1,7 @@
+create table EXP_TABLE (ID int, COL1 int, COL2 int, COL3 float, COL4 int);
+insert into EXP_TABLE values(2,2,-2,5.5,1),(3,3,4,5.0,4);
+SELECT ID,-(COL2*(-1)+1)+(COL4+2)*(COL1+COL3*2),(4+COL2)*COL3/2 FROM EXP_TABLE WHERE -(COL2*(-1)+1)+(COL4+2)*(COL1+COL3*2) > (4+COL2)*COL3/2;
+select ID,COL1,COL2,COL3,COL4,6-(COL2*(1+COL1))+(COL4+2)/(1+COL1*4+COL3*2) from EXP_TABLE where 6-(COL2*(1+COL1))+(COL4+2)/(1+COL1*4+COL3*2) > 5;
+select ID,COL1,COL2,COL3,COL4,3*COL1/(COL2+2) from EXP_TABLE where 3*COL1/(COL2+2) > 1;
+select ID,3*COL1/(COL2+2) from EXP_TABLE where 3*COL1/(COL2+2)+1/0 > 1;
+select * from EXP_TABLE where 1/0 = 1/0;

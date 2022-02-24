@@ -1,0 +1,8 @@
+create table EXP_TABLE (ID int, COL1 int, COL2 int, COL3 float, COL4 int);
+insert into EXP_TABLE values(3,3,4,5.0,4);
+insert into EXP_TABLE values(2,2,-2,5.5,1);
+SELECT * FROM EXP_TABLE WHERE 1 = 5/4;
+SELECT * FROM EXP_TABLE WHERE COL1-2 > 0;
+SELECT * FROM EXP_TABLE WHERE 2+COL2 < 1;
+SELECT * FROM EXP_TABLE WHERE COL1*COL2 < 0;
+drop table EXP_TABLE;

@@ -1,0 +1,12 @@
+create table t(a int);
+insert into t values(1);
+insert into t values(1);
+create unique index t1 on t(a);
+delete from t;
+insert into t values(1);
+create unique index t1 on t(a);
+insert into t values(2);
+insert into t values(1);
+update t set a=1 where a=2;
+update t set a=3 where a=2;
+drop table t;

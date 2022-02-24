@@ -1,0 +1,12 @@
+create table t (a int, b int);
+insert into t values(1,2);
+insert into t values(2,3);
+update t set a=3 where b=2;
+select * from t;
+update t set a='a';
+update t set c=1;
+update t set a=1 where c=1;
+update b set a=1;
+update set a=1;
+select * from t;
+drop table t;

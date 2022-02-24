@@ -1,0 +1,9 @@
+create table t_orderby (ID int, SCORE int, NAME char);
+insert into t_orderby values(3, 1, 'A');
+insert into t_orderby values(3, 2, 'F');
+insert into t_orderby values(3, 2, 'C');
+insert into t_orderby values(3, 3, 'D');
+insert into t_orderby values(3, 4, 'C');
+insert into t_orderby values(3, 2, 'E');
+SELECT * FROM t_orderby WHERE ID=3 AND NAME>='A' ORDER BY SCORE DESC, NAME;
+drop table t_orderby;

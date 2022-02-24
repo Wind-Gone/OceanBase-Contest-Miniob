@@ -1,0 +1,61 @@
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+t_group_1.id | t_group_1.name | avg(t_group_1.score) | avg(t_group_2.age)
+1 | hu | 90 | 18
+2 | liu | 80 | 22
+3 | li | 70 | 18
+4 | we | 100 | 18
+5 | li | 80 | 22
+6 | we | 70 | 18
+t_group_1.id | max(t_group_1.name) | min(t_group_1.score) | count(t_group_1.age) | avg(t_group_1.age)
+1 | hu | 90 | 1 | 18
+2 | liu | 80 | 1 | 22
+3 | li | 70 | 1 | 18
+4 | we | 100 | 1 | 18
+5 | li | 80 | 1 | 22
+6 | we | 70 | 1 | 18
+id | avg(age)
+1 | 18
+2 | 22
+3 | 18
+4 | 18
+5 | 22
+6 | 18
+7 | 18
+id | max(t_group_1.score)
+7 | 60
+1 | 90
+3 | 80
+2 | 80
+4 | 100
+id | avg(score)
+1 | 90
+2 | 80
+3 | 70
+4 | 100
+5 | 80
+6 | 70
+7 | 60
+id | avg(score)
+t_group_1.id | t_group_1.name | avg(t_group_1.score) | avg(t_group_2.age)
+max(id) | score
+7 | 60
+1 | 90
+5 | 70
+2 | 80
+6 | 100
+SUCCESS
+SUCCESS

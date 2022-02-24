@@ -1,0 +1,7 @@
+create table t (a float);
+insert into t values(17.10);
+insert into t values(17.01);
+insert into t values(17.001);
+insert into t values(17.045);
+select * from t;
+drop table t;

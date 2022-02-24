@@ -1,0 +1,7 @@
+create table t (a int, b char);
+insert into t values(1,'b');
+insert into t values(1,'c');
+insert into t values(3,'c');
+insert into t values(2,'d');
+select a,b from t order by a, b desc;
+drop table t;

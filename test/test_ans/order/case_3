@@ -1,0 +1,18 @@
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+t1.a | t2.b
+1 | 2
+1 | 4
+3 | 4
+t2.b | t1.a
+2 | 1
+2 | 3
+4 | 1
+4 | 3
+FAILURE
+SUCCESS
+SUCCESS

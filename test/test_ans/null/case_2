@@ -1,0 +1,12 @@
+SUCCESS
+SUCCESS
+a | b | c | d
+0 | 1 | NULL | NULL
+NULL | NULL | b | 2020-01-01
+2 | 2 | c | NULL
+max(a) | avg(b) | min(c) | count(d)
+2 | 1.5 | b | 1
+a
+a
+2
+SUCCESS

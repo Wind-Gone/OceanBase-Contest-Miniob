@@ -1,0 +1,9 @@
+create table t1 (a char);
+create table t2 (b char);
+insert into t1 values('a');
+insert into t2 values('b');
+insert into t2 values('a');
+select t1.a from t1,t2 where t1.a=t2.b;
+select t2.*,t1.* from t1,t2 where t1.a<t2.b;
+drop table t1;
+drop table t2;

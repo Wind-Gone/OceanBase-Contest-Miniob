@@ -1,0 +1,10 @@
+create table t_group_by (id int, score float, name char);
+insert into t_group_by values(3, 1.0, 'a');
+insert into t_group_by values(1, 2.0, 'b');
+insert into t_group_by values(4, 3.0, 'c');
+insert into t_group_by values(3, 2.0, 'c');
+insert into t_group_by values(3, 4.0, 'c');
+insert into t_group_by values(3, 3.0, 'd');
+insert into t_group_by values(3, 2.0, 'f');
+SELECT id, avg(score) FROM t_group_by GROUP BY id;
+drop table t_group_by;

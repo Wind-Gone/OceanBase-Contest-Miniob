@@ -1,0 +1,3 @@
+create table EXP_TABLE (ID int, COL1 int, COL2 int, COL3 float, COL4 int);
+insert into EXP_TABLE values(3,3,4,5.0,4);
+insert into EXP_TABLE values(2,2,-2,5.5,1);

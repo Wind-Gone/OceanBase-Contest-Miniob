@@ -1,0 +1,8 @@
+create table t(id int, age int);
+select * from t where name='a';
+select address from t where id=1;
+select * from t_1000;
+insert into t_1000 values(1);
+select id, name from t;
+select name, id from t;
+drop table t;

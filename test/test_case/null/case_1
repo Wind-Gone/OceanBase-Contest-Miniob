@@ -1,0 +1,5 @@
+create table t (a int nullable, b float not null);
+insert into t values(1,1.0),(null,2.0);
+insert into t values(1,null);
+select * from t;
+drop table t;

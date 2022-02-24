@@ -1,0 +1,12 @@
+create table t_expr1 (id int, name char, age int, col1 int);
+create table t_expr2 (id int, name char, age int, col2 int);
+insert into t_expr1 values(1,'hu',19, 1);
+insert into t_expr1 values(2,'hu',29, 2);
+insert into t_expr1 values(3,'hu',39, 3);
+insert into t_expr1 values(4,'hu',49, 4);
+insert into t_expr1 values(5,'hu',59, 5);
+insert into t_expr2 values(6,'hu',49, 6);
+insert into t_expr2 values(7,'hu',39, 7);
+insert into t_expr2 values(8,'hu',29, 8);
+insert into t_expr2 values(9,'hu',19, 9);
+insert into t_expr2 values(10,'hu',9, 9);

@@ -1,0 +1,11 @@
+create table t_group_by(id char, score float);
+create index t_id on t_group_by(id);
+insert into t_group_by values('1',2.0);
+insert into t_group_by values('1',2.0);
+insert into t_group_by values('3',2.4);
+insert into t_group_by values('3',2.4);
+insert into t_group_by values('4',3.0);
+insert into t_group_by values('4',3.0);
+insert into t_group_by values('4',3.0);
+SELECT id, AVG(score) FROM t_group_by GROUP BY id;
+drop table t_group_by;

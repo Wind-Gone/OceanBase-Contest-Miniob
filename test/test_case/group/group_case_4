@@ -1,0 +1,18 @@
+create table T_GROUP_BY (ID int, NAME char, SCORE int);
+create table T_GROUP_BY_2 (ID int, NAME char, AGE float);
+insert into T_GROUP_BY values(1, 'B', 2);
+insert into T_GROUP_BY values(1, 'B', 2);
+insert into T_GROUP_BY_2 values(1, 'B', 10.0);
+insert into T_GROUP_BY_2 values(1, 'B', 10.0);
+insert into T_GROUP_BY values(3, 'A', 1);
+insert into T_GROUP_BY values(3, 'C', 3);
+insert into T_GROUP_BY values(3, 'D', 3);
+insert into T_GROUP_BY values(3, 'F', 2);
+insert into T_GROUP_BY_2 values(3,'A', 23.33);
+insert into T_GROUP_BY_2 values(3,'C', 23.33);
+insert into T_GROUP_BY_2 values(3,'D', 23.33);
+insert into T_GROUP_BY values(4, 'C', 3);
+insert into T_GROUP_BY_2 values(4,'C', 20.0);
+SELECT T_GROUP_BY.ID, T_GROUP_BY.NAME, AVG(T_GROUP_BY.SCORE), AVG(T_GROUP_BY_2.AGE) FROM T_GROUP_BY, T_GROUP_BY_2 WHERE T_GROUP_BY.ID=T_GROUP_BY_2.ID GROUP BY T_GROUP_BY.ID, T_GROUP_BY.NAME;
+drop table T_GROUP_BY;
+drop table T_GROUP_BY_2;

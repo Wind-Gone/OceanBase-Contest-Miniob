@@ -1,0 +1,11 @@
+SUCCESS
+SUCCESS
+ID | -(COL2*(-1)+1)+(COL4+2)*(COL1+COL3*2) | (4+COL2)*COL3/2
+2 | 36 | 5.5
+3 | 81 | 20
+ID | COL1 | COL2 | COL3 | COL4 | 6-(COL2*(1+COL1))+(COL4+2)/(1+COL1*4+COL3*2)
+2 | 2 | -2 | 5.5 | 1 | 12.15
+ID | COL1 | COL2 | COL3 | COL4 | 3*COL1/(COL2+2)
+3 | 3 | 4 | 5 | 4 | 1.5
+ID | 3*COL1/(COL2+2)
+ID | COL1 | COL2 | COL3 | COL4

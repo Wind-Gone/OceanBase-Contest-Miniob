@@ -1,0 +1,54 @@
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+t_expr1.col1+t_expr2.col2
+12
+11
+12
+13
+11
+12
+13
+14
+10
+11
+12
+13
+14
+t_expr1.id | t_expr1.name | t_expr1.age | t_expr1.col1 | t_expr2.id | t_expr2.name | t_expr2.age | t_expr2.col2
+5 | hu | 59 | 5 | 7 | hu | 39 | 7
+3 | hu | 39 | 3 | 8 | hu | 29 | 8
+4 | hu | 49 | 4 | 8 | hu | 29 | 8
+5 | hu | 59 | 5 | 8 | hu | 29 | 8
+2 | hu | 29 | 2 | 9 | hu | 19 | 9
+3 | hu | 39 | 3 | 9 | hu | 19 | 9
+4 | hu | 49 | 4 | 9 | hu | 19 | 9
+5 | hu | 59 | 5 | 9 | hu | 19 | 9
+1 | hu | 19 | 1 | 10 | hu | 9 | 9
+2 | hu | 29 | 2 | 10 | hu | 9 | 9
+3 | hu | 39 | 3 | 10 | hu | 9 | 9
+4 | hu | 49 | 4 | 10 | hu | 9 | 9
+5 | hu | 59 | 5 | 10 | hu | 9 | 9
+t_expr1.id
+5
+3
+4
+5
+2
+3
+4
+5
+1
+2
+3
+4
+5

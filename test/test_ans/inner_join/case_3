@@ -1,0 +1,13 @@
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+avg(t1.a) | max(t2.b)
+0.5 | 3
+SUCCESS
+max(t2.b) | avg(t1.a)
+3 | 0.8
+SUCCESS
+SUCCESS

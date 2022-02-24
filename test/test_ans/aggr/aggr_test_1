@@ -1,0 +1,35 @@
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+id | age | name | score
+1 | 1 | a | 1
+2 | 2 | b | 2
+4 | 4 | c | 3
+3 | 3 | d | 4
+5 | 5 | e | 5.5
+6 | 6 | f | 6.6
+7 | 7 | g | 7.7
+avg(id) | count(*) | max(id) | min(id)
+4 | 7 | 7 | 1
+avg(t_basic_2.score) | count(*) | max(age) | min(score)
+4.26 | 7 | 7 | 1
+avg(3) | count(1)
+3 | 7
+avg(3.4) | max(1.1) | min(-1.1)
+3.4 | 1.1 | -1.1
+max(3.456) | min(age) | avg(t_basic_2.age)
+3.46 | 1 | 4
+count(4) | max(name)
+7 | g
+FAILURE
+FAILURE
+FAILURE
+SUCCESS
+avg(id) | max(age) | min(name) | count(score)
+SUCCESS
+SUCCESS

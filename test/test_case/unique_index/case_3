@@ -1,0 +1,13 @@
+create table t(a date);
+insert into t values('2020-01-1');
+insert into t values('2020-1-01');
+create unique index t1 on t(a);
+delete from t;
+insert into t values('2020-1-1');
+create unique index t1 on t(a);
+insert into t values('2020-1-2');
+insert into t values('2020-1-1');
+update t set a='2020-1-1' where a='2020-1-2';
+update t set a='2020-1-3' where a='2020-1-2';
+select * from t where '2019-12-01' < a;
+drop table t;

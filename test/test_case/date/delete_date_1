@@ -1,0 +1,2 @@
+create table t1 (a int, b date, c chars);
+delete from t1 where b='2020-02-30';

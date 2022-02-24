@@ -1,0 +1,8 @@
+create table t (a int nullable, b float);
+insert into t values(1,1.0),(null,2.0);
+create index t1 on t(a);
+select * from t where a is null;
+select * from t where a is not null;
+select * from t where a > 0;
+select * from t where null is not null;
+drop table t;

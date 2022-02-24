@@ -1,0 +1,7 @@
+create table t (a int nullable, b float nullable,c char nullable, d date nullable);
+insert into t values(0,1.0,null,null),(null,null,'b','2020-1-1'),(2,2.0,'c',null);
+select * from t where null is  null;
+select max(a),avg(b),min(c),count(d) from t;
+select a from t where a = null;
+select a from t where b > 1.0;
+drop table t;

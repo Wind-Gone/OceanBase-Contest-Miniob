@@ -1,0 +1,29 @@
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+SUCCESS
+count(*)
+6
+count(id)
+6
+min(id)
+1
+min(name)
+aa
+max(id)
+6
+max(name)
+we
+avg(id)
+3.5
+avg(price)
+-1.74
+avg(price) | max(id) | max(name)
+-1.74 | 6 | we
+FAILURE
+FAILURE
+FAILURE
+SUCCESS

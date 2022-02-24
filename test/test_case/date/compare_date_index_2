@@ -1,0 +1,8 @@
+create table t4 (a int, b float, c char, d date);
+create index a_id on t4 (a);
+insert into t4 values(8,-2.2,'h','2013-8-29');
+insert into t4 values(2,-1.1,'g','2014-7-28');
+insert into t4 values(6,1.6,'f','2015-6-29');
+insert into t4 values(5,1.5,'e','2016-5-30');
+select * from t4 where a <> 6;    
+drop table t4;

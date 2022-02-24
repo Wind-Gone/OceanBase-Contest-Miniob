@@ -1,0 +1,8 @@
+create table t_basic_2(id int, age int, name char, score float);
+insert into t_basic_2 values(1,1, 'a', 1.0);
+insert into t_basic_2 values(2,2, 'b', 2.0);
+insert into t_basic_2 values(4,4, 'c', 3.0);
+insert into t_basic_2 values(3,3, 'd', 4.0);
+insert into t_basic_2 values(5,5, 'e', 5.5);
+insert into t_basic_2 values(6,6, 'f', 6.6);
+insert into t_basic_2 values(7,7, 'g', 7.7);

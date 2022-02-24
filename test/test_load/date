@@ -1,0 +1,11 @@
+create table t1 (a int, b date);
+insert into t1 values(1,'2020-1-3');
+insert into t1 values(2,'2020-01-3');
+insert into t1 values(3,'2020-1-03');
+insert into t1 values(4,'2020-01-03');
+insert into t1 values(5,'2020-02-3');
+insert into t1 values(6, '2010-3-5');
+insert into t1 values(7, '2000-3-5');
+insert into t1 values(8, '1990-12-5');
+insert into t1 values(9, '1980-2-5');
+insert into t1 values(10, '1970-12-31');
