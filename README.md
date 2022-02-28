@@ -4,7 +4,7 @@
 > - https://oceanbase-partner.github.io/lectures-on-dbms-implementation/miniob-introduction
 ## 团队
 :man_with_gua_pi_mao:@[superhail](https://github.com/superhail)
-:man_with_turban::@[wengsy150943](https://github.com/wengsy150943)
+:man_with_turban:@[wengsy150943](https://github.com/wengsy150943)
 ## 背景
 
 miniob设计的目标是让不熟悉数据库设计和实现的同学能够快速的了解与深入学习数据库内核，期望通过miniob相关训练之后，能够对各个数据库内核模块的功能与它们之间的关联有所了解，并能够在使用时，设计出高效的SQL。面向的对象主要是在校学生，并且诸多模块做了简化，比如不考虑并发操作。
