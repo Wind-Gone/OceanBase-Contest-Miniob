@@ -273,6 +273,7 @@ miniob 是功能非常简单的数据库，语法解析也做得非常简单。�
 - 增加CPP/H 文件是否需要更新CMakeLists.txt 不需要。Cmake文件中使用自动探测的方式。加了新的源代码，再执行一遍 cmake .. 就可以自动探测到新加的源文件。
 
 # 数据库系统实现 db_impl_course
+https://github.com/dase314/db_impl_course
 
 数据库系统原理与实现是华东师范大学数据学院开设一门数据库系统课程。 授课人胡卉芪
 
