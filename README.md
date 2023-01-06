@@ -1,5 +1,6 @@
 # OceanBase-Contest-Miniob
 
+> - https://github.com/oceanbase/miniob
 > - https://open.oceanbase.com/competition/index
 > - https://oceanbase-partner.github.io/lectures-on-dbms-implementation/miniob-introduction
 > - https://github.com/obcontest/miniob_final (决赛代码库)
